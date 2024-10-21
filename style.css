@@ -31,7 +31,7 @@ body {
 
 .navbar-brand {
 
-    color: #fff;
+    color: #f8f8f8;
 
     cursor: pointer;
 
@@ -68,9 +68,59 @@ h6{
 /*--- Content ---*/
 
 
+.carousel{
+    margin: 25px;
+}
 
+.container-places .card-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #db4a2b; 
+    text-align: center;
+    margin-bottom: 30px;
+    background: none;
+}
+.container-places .card-img-overlay {
+    background: linear-gradient(0deg, rgba(219,74,43,0.7) 0%, rgba(255, 255, 255, 0.5) 100%);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    align-items: end; 
+    justify-content: center;
+    
+}
+.container-places .card-title {
+    font-size: 1.25rem;
+    text-align: center;
+}
 
+.container-places .card {
+    position: relative;
+    overflow: hidden;
+}
 
+.container-steps{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.step-box i {
+    font-size: 50px; 
+    color: #db4a2b;  
+    padding-bottom: 20px;
+}
+
+.step-highlight{
+    color: #db4a2b;
+    font-size: 25px;
+}
+.container-steps{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-places .card-img {
+    width: 100%;
+    height: 250px; 
+    object-fit: cover; 
+}
 
 
 
@@ -84,6 +134,10 @@ h6{
 
 
 /* footer.css */
+.container-footer {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
 
 footer {
     background-color: #5c5f63; 
@@ -111,12 +165,21 @@ footer a:hover {
 
 .social-icons a {
     margin: 0 10px; 
-    color: #343a40; 
+    color: #db4a2b; 
 }
 
 .social-icons a:hover {
-    color: #007bff; 
+    color: #db4a2b; 
 }
+.text-uppercase{
+    color: #db4a2b;
+}
+.text-center{
+    background-color: white; 
+    color: black;
+}
+
+
 
 @media (max-width: 768px) {
     footer .col-md-3, footer .col-md-4, footer .col-md-2 {
