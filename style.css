@@ -13,19 +13,13 @@ body {
 
 }
 
-
-
 /*--- navigation bar ---*/
-
-
 
 .navbar {
     background: #db4a2b;
     letter-spacing: -1.3px;
     font-weight: lighter;
 }
-
-
 
 .nav-link,
 
@@ -37,23 +31,17 @@ body {
 
 }
 
-
-
 .nav-link {
 
     margin-right: 1em !important;
 
 }
 
-
-
 .nav-link:hover {
 
     color: #f5876f;
 
 }
-
-
 
 .navbar-collapse {
 
@@ -71,6 +59,7 @@ h6{
 .carousel{
     margin: 25px;
 }
+
 
 .container-places .card-header {
     font-size: 2.5rem;
@@ -105,7 +94,7 @@ h6{
 
 .step-box i {
     font-size: 50px; 
-    color: #db4a2b;  
+    color: #ce654d;  
     padding-bottom: 20px;
 }
 
