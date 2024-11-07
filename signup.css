@@ -30,38 +30,3 @@
 
 
 
-/*--- navigation bar ---*/
-
-.navbar {
-    background: #db4a2b;
-    letter-spacing: -1.3px;
-    font-weight: lighter;
-}
-
-.nav-link,
-
-.navbar-brand {
-
-    color: #f8f8f8;
-
-    cursor: pointer;
-
-}
-
-.nav-link {
-
-    margin-right: 1em !important;
-
-}
-
-.nav-link:hover {
-
-    color: #f5876f;
-
-}
-
-.navbar-collapse {
-
-    justify-content: flex-end;
-
-}
